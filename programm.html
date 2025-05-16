@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Python Code</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Python Program Code:</h2>
+  <pre>
+import turtle as t
+import time
+
+t.color("blue")
+t.begin_fill()
+
+counter = 0
+
+while counter < 4:
+    t.forward(285)
+    t.left(90)
+    counter = counter + 1
+
+t.end_fill()
+time.sleep(5)
+  </pre>
+
+</body>
+</html>
